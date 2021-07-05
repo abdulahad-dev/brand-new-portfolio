@@ -131,3 +131,43 @@ body{
     text-transform: uppercase;
     border-radius: 30px;
 }
+
+/* Experience Area css  */
+#experience-area{
+    background-image: url(../images/experience-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#experience-area .experience-title{
+    text-align: center;
+}
+#itlab h2, h3{
+   
+}
+#itlab{
+    box-shadow: 10px 10px 40px #ddd;
+    width: 40%;
+    padding: 30px 5px 10px 35px;
+    margin-right: 123px;
+    border-radius: 68px 2px 68px 2px;
+}
+#staff-asia{
+    box-shadow: 10px 10px 40px #ddd;
+    width: 40%;
+    padding: 30px 5px 10px 35px;
+    margin-right: 123px;
+    border-radius: 68px 2px 68px 2px;
+}
+.exp-top-margin{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.exp-bottom-margin{
+    padding-bottom: 5%;
+}
+.orange-color{
+    color: #fbb271;
+}
+.green-color{
+    color: #449b90;
+}
