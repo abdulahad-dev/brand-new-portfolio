@@ -98,3 +98,23 @@ body{
     padding-top: 75px;
 }
 
+/* About Area css */
+
+#about-area{
+    background-image: url(../images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-bottom-margin{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#about-area .profile-name-two{
+    width: 60%;
+}
+
+#about-area p{
+    font-weight: 300;
+    line-height: 1.5;
+}
