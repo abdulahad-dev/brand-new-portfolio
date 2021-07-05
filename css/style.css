@@ -171,3 +171,51 @@ body{
 .green-color{
     color: #449b90;
 }
+
+/* Contact us Area css */
+#contact-us{
+    background-image: url(../images/contact-us-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contact-us form{
+    border: 3px solid #449b90;
+    width: 40%;
+    padding: 15px;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 10px 10px 40px #ddd;
+}
+#contact-us form label{
+    font-size: 20px;
+    font-weight: 600;
+    width: 20px;
+}
+.contact-top-margin{
+    padding-top: 3%;
+}
+.contact-bottom-margin{
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+.touch-title{
+    text-align: center;
+}
+form input{
+    padding: 5px;
+    border-radius: 20px;
+    border-color: #fbb27157;
+}
+form textarea{
+    border-radius: 5px;
+    border-color: #fbb27157;
+}
+
+/* Footer Area css */
+footer{
+    width: 100%;
+    height: 60px;
+}
+footer p{
+    text-align: center;
+}
