@@ -77,6 +77,18 @@ body{
     font-weight: 300;
     line-height: 1.5;
 }
+.self-introduction .more-about-button{
+    padding: 50px 0px 0px 15px;
+}
+.self-introduction .link-button{
+    text-decoration: none;
+    background-image: linear-gradient(#fbb474, #3df0f9);
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
 #banner-area .profile-pic{
     width: 60%;
     cursor: pointer;
