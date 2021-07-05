@@ -1,0 +1,88 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.flexible-container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+
+/* Header area css */
+
+.header-area{
+    background-color: #FAAD6A;
+}
+.navbar-menu{
+    display: flex;
+}
+.navbar-menu .logo a{
+    font-size: 49px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;
+}
+.navbar-menu .logo span{
+    color: #459A90;
+    font-size: 30px;
+}
+.navigation-bar-icon{
+    text-align: right;
+}
+.navigation-bar-icon a img{
+    width: 50px;
+    height: 50px;
+    box-shadow: 5px 5px 40px #bfbab5;
+    border-radius: 50%;
+}
+
+/* Banner Area css */
+#banner-area{
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.self-introduction{
+    padding: 150px 0;
+    
+}
+.self-introduction .border-left{
+    border-left: 5px groove;
+    border-image: linear-gradient(#449b90, #ffc895);
+    border-image-slice: 1;
+    height: 255px;
+    padding-left: 15px;
+}
+.self-introduction span{
+    color: #449b90;
+}
+.self-introduction .myname{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.self-introduction .designation{
+    font-size: 29px;
+    color: #fbb271;
+}
+.self-introduction p{
+    font-weight: 300;
+    line-height: 1.5;
+}
+#banner-area .profile-pic{
+    width: 60%;
+    cursor: pointer;
+}
+#banner-area .profile{
+    text-align: center;
+    padding-top: 75px;
+}
+
